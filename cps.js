@@ -53,11 +53,16 @@ console.log(message);
 
 //exercise 3 - Your function should use the two previous functions you created to "return" a string that contains both the first and last character of the initial string
 
-function getFirstAndLast (newStr, cc) {
-    cc (String(newStr[0]) + String(newStr.slice(-1)));
-}
+// function getFirstAndLast (newStr, cc) {
+//     cc (String(newStr[0]) + String(newStr.slice(-1)));
+// }
 
 
-getFirstAndLast("hello", function(newStr) { 
-    console.log(newStr); 
-});
+// getFirstAndLast("hello", function(newStr) { 
+//     console.log(newStr); 
+// });
+
+//exercise 4 - Using npm init, initialize your project any way you like.
+
+// exercise 5 - Using the nano text editor, create a file at the root of your project called .gitignore - n this file, write one line that says node_modules, and save the file
+
