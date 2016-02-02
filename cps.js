@@ -64,5 +64,11 @@ console.log(message);
 
 //exercise 4 - Using npm init, initialize your project any way you like.
 
-// exercise 5 - Using the nano text editor, create a file at the root of your project called .gitignore - n this file, write one line that says node_modules, and save the file
+// exercise 5 - Using the nano text editor, create a file at the root of your project called .gitignore - in this file, write one line that says node_modules, and save the file
+
+// exercise 6 - Create a library directory at the root of your project, Inside this directory, create a file called fortune.js - In this file, create a module that exposes one getFortune function - When the getFortune function is called, it should return a random fortune, similarly to the fortune cmd-line utility
+
+var fortune = require("./library/fortune.js");
+
+fortune()
 
